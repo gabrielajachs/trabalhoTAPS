@@ -2,34 +2,30 @@ package modelo;
 
 public class Professor {
 	
-	private String mat;
-	private String no;
-	private float sf;
+	private String matricula;
+	private String nome;
+	private float salarioFinal;
 	
 	
-	public Professor(String mat, String no) {
+	public Professor(String matricula, String nome) {
 		super();
-		this.mat = mat;
-		this.no = no;
+		this.matricula = matricula;
+		this.nome = nome;
 	}
 
 
-	
-	
-	public String getMat() {
-		return mat;
+	public String getMatricula() {
+		return matricula;
 	}
 
 
-	public void setMat(String mat) {
-		this.mat = mat;
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 	}
 
-	
-	
 
-	public String getNo() {
-		return no;
+	public String getNome() {
+		return nome;
 	}
 
 
